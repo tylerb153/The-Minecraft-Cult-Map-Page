@@ -56,7 +56,7 @@ iframe{
   grid-template-columns: 2fr 1fr;
   margin-right: auto;
   margin-left: auto;
-  align-items: top;
+  align-items: center;
   width: var(--widthOfContent);
 }
 
