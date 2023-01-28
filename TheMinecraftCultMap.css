@@ -1,5 +1,5 @@
 :root {
-  --widthOfContent: 90%;
+  --widthOfContent: 100%;
   --transitionTime: 0.2s;
 }
 
@@ -7,13 +7,16 @@ body{
   background-color: #00ccff;
 }
 
+header{
+  float: left;
+}
+
 nav{
   display: block; 
   margin-left: auto;
   margin-right: auto;
-  width: var(--widthOfContent);
-  margin-top: 20px;
-  margin-bottom: 20px;
+  float: right;
+  width: 100%;
   height: 50px;
   border-radius: 20px;
 }
@@ -23,9 +26,8 @@ iframe{
   margin-left: auto;
   margin-right: auto;
   width: calc(var(--widthOfContent) - 20px);
-  margin-top: 20px;
   margin-bottom: 20px;
-  height: calc(100vh - 400px);
+  height: calc(100vh - 200px);
   border: 10px solid black;
   border-radius: 20px;
   background-color: black;
@@ -34,7 +36,6 @@ iframe{
 #title{
   float:right;
   display: block;
-  margin-top: 100px;
   margin-left: 10px;
   margin-right: auto;
   width: calc(90% - 10px);
@@ -44,11 +45,19 @@ iframe{
 #logo{
   float: left;
   display: block;
-  margin-top: 100px;
   margin-left: auto;
   margin-right: 10px;
   width: calc(10% - 10px);
   height: 100%
+}
+
+#topLevelContainer{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+  width: var(--widthOfContent);
 }
 
 #container{
@@ -57,7 +66,7 @@ iframe{
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  width: var(--widthOfContent);
+  width: 100%;
 }
 
 #divIP{
