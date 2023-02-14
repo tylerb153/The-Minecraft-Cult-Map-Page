@@ -95,7 +95,7 @@ iframe{
 
 #buttonContainer{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   width: calc(100% - 10px);
   height: 100%;
   margin-left: 5px;
