@@ -36,7 +36,7 @@ iframe{
 #title{
   float:right;
   display: block;
-  margin-left: 10px;
+  margin-left: 5px;
   margin-right: auto;
   width: calc(90% - 10px);
   height: 100%;
@@ -46,7 +46,7 @@ iframe{
   float: left;
   display: block;
   margin-left: auto;
-  margin-right: 10px;
+  margin-right: 5px;
   width: calc(10% - 10px);
   height: 100%
 }
@@ -63,7 +63,6 @@ iframe{
 #container{
   display: flex;
   flex-wrap: nowrap;
-  align-items: center;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
